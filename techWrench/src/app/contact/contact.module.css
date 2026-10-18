@@ -1,0 +1,48 @@
+.main {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  color: #fff
+}
+
+.heroArea {
+  position: relative;
+  background-color: #051D22;
+  height: 500px;
+  color: #CFC6BB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  overflow: hidden;
+}
+
+.overlayImageWrapper {
+  position: absolute;
+  inset: -30%;
+  z-index: 1;
+}
+
+.overlayImage {
+  object-fit: cover;
+  z-index: 1;
+  -webkit-mask-image: linear-gradient(to right, transparent 20%, black 70%);
+  mask-image: linear-gradient(to right, transparent 20%, black 70%);
+}
+
+.heroText {
+  position: relative;
+  z-index: 2;
+}
+
+@media (max-width: 700px) {
+
+  .heroArea {
+    height: 400px;
+  }
+
+  .overlayImage {
+    -webkit-mask-image: linear-gradient(to right, transparent 30%, black 80%);
+    mask-image: linear-gradient(to right, transparent 30%, black 80%);
+  }
+}

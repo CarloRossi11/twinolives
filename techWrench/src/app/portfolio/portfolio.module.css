@@ -1,0 +1,134 @@
+.heroArea {
+  position: relative;
+  background-color: #051d22;
+  height: 500px;
+  color: #cfc6bb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+  overflow: hidden;
+}
+
+.overlayImageWrapper {
+  position: absolute;
+  inset: -30%;
+  z-index: 1;
+}
+
+.overlayImage {
+  object-fit: cover;
+  z-index: 1;
+  -webkit-mask-image: linear-gradient(to right, transparent 20%, black 70%);
+  mask-image: linear-gradient(to right, transparent 20%, black 70%);
+}
+
+.heroText {
+  position: relative;
+  z-index: 2;
+}
+
+.main {
+  color: #ffffff;
+}
+
+.portfolio {
+  padding: 2rem 1rem;
+  background-color: #fff;
+  color: #051d22;
+  width: 100%;
+  text-align: center;
+}
+
+.portfolio h1 {
+  padding: 1rem 0rem;
+}
+
+.portfolioContent {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolioItem {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 1rem;
+  text-align: center;
+  max-width: 400px;
+  border-radius: 1rem;
+  background-color: #fff;
+  color: #051d22;
+}
+
+.portfolioImage {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1; /* Match your image's natural ratio — adjust if needed */
+}
+
+.buttonContainer {
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.ctas {
+  display: flex;
+  gap: 16px;
+}
+
+.ctas a {
+  appearance: none;
+  border-radius: 128px;
+  height: 48px;
+  padding: 0 20px;
+  border: 1px solid transparent;
+  transition:
+    background 0.2s,
+    color 0.2s,
+    border-color 0.2s;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+a.primary {
+  background-color: #cfc6bb;
+  color: #051d22;
+  border: 1px solid #051d22;
+  gap: 8px;
+  margin: 1rem;
+}
+
+a.secondary {
+  background-color: #051d22;
+  color: #cfc6bb;
+  border: var(--foreground);
+  gap: 8px;
+  margin: 1rem;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  a.primary:hover {
+    background-color: #051d22;
+    color: #cfc6bb;
+    border: var(--foreground);
+  }
+
+  a.secondary:hover {
+    background-color: #cfc6bb;
+    color: #051d22;
+    border: 1px solid #051d22;
+  }
+}
+
+@media (max-width: 600px) {
+  .portfolioContent {
+    flex-direction: column;
+    text-align: center;
+  }
+}
