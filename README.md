@@ -1,4 +1,4 @@
-# Tech Wrench
-Website for [Tech Wrench](https://www.techwrench.co/)
+# Twin Olives
+Website for [Twin Olives](https://twinolives.com/)
 
-[Github Repo](https://github.com/CarloRossi11/wrench)
+[Github Repo](https://github.com/CarloRossi11/twinolives)
