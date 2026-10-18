@@ -20,7 +20,7 @@ export default function Intro() {
         />
       </div>
       <div className={styles.introRight}>
-        <h1>Get Found. Capture Every Lead. Win More Customers.</h1>
+        <h1>Twin Olives</h1>
         <p className={styles.introText}>
           From automated lead follow-up and high-performance websites to Google
           Business optimization and review generation, Tech Wrench equips local
