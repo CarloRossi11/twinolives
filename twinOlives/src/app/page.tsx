@@ -2,40 +2,38 @@ import type { Metadata } from "next";
 import HomeClient from "./HomeClient";
 
 export const metadata: Metadata = {
-  title: "Customer Acquisition for Local Service Businesses | Tech Wrench",
+  title: "Twin Olives | Home Improvement and Design",
 
   description:
-    "Tech Wrench helps local service businesses get found online, capture every lead, automate customer follow-up, and turn more inquiries into paying customers through high-performance websites, Google Business Profile optimization, CRM, and customer acquisition systems.",
+  "Pittsburgh home improvement and interior design firm since 2017. Renovations, interior design, short-term rental design, and restoration. Free consultation.",
 
   keywords: [
-    "customer acquisition",
-    "lead generation",
-    "Google Business Profile optimization",
-    "local SEO",
-    "website development",
-    "lead management",
-    "CRM",
-    "marketing automation",
-    "Google Local Services Ads",
-    "contractor marketing",
-    "marketing for landscapers",
-    "marketing for plumbers",
-    "marketing for HVAC companies",
-    "marketing for electricians",
+    "Pittsburgh home improvement",
+    "Pittsburgh interior design",
+    "home renovation Pittsburgh",
+    "kitchen renovation Pittsburgh",
+    "bathroom remodel Pittsburgh",
+    "short-term rental design",
+    "Airbnb design Pittsburgh",
+    "furniture restoration",
+    "home remodeling",
+    "interior designer",
+    "home improvement contractor",
+    "Twin Olives",
   ],
 
   alternates: {
-    canonical: "https://www.techwrench.co",
+    canonical: "https://twinolives.com/",
   },
 
   openGraph: {
-    title: "Customer Acquisition for Local Service Businesses | Tech Wrench",
+    title: "Twin Olives | Home Improvement and Design",
 
     description:
-      "Tech Wrench helps local service businesses get found online, capture every lead, automate customer follow-up, and turn more inquiries into paying customers through high-performance websites, Google Business Profile optimization, CRM, and customer acquisition systems.",
+      "Pittsburgh home improvement and interior design firm since 2017. Renovations, interior design, short-term rental design, and restoration. Free consultation.",
 
-    url: "https://www.techwrench.co",
-    siteName: "Tech Wrench",
+    url: "https://twinolives.com/",
+    siteName: "Twin Olives",
     type: "website",
 
     images: [
@@ -51,10 +49,10 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
 
-    title: "Customer Acquisition for Local Service Businesses | Tech Wrench",
+    title: "Twin Olives | Home Improvement and Design",
 
     description:
-      "Tech Wrench helps local service businesses get found online, capture every lead, automate customer follow-up, and turn more inquiries into paying customers through high-performance websites, Google Business Profile optimization, CRM, and customer acquisition systems.",
+      "Pittsburgh home improvement and interior design firm since 2017. Renovations, interior design, short-term rental design, and restoration. Free consultation.",
 
     images: [
       {

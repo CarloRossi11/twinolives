@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: ["/api/", "/_next/"],
     },
-    sitemap: "https://www.techwrench.co/sitemap.xml",
+    sitemap: "https://twinolives.com/sitemap.xml",
   };
 }

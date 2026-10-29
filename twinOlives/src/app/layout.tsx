@@ -19,40 +19,38 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.techwrench.co"),
-  title:
-    "Tech Wrench | Customer Acquisition Systems for Local Service Businesses",
+  metadataBase: new URL("https://twinolives.com"),
+  title: "Twin Olives | Home Improvement & Interior Design in Pittsburgh, PA",
   description:
-    "Tech Wrench helps local service businesses get found online, capture every lead, and win more customers through high-performance websites, Google Business optimization, lead automation, and customer acquisition systems.",
+    "Pittsburgh home improvement and interior design firm since 2017. Renovations, interior design, short-term rental design, and restoration. Free consultation.",
   keywords: [
-    "customer acquisition",
-    "lead generation",
-    "Google Business Profile optimization",
-    "local SEO",
-    "website development",
-    "Next.js websites",
-    "CRM",
-    "lead management",
-    "marketing automation",
-    "Google Local Services Ads",
-    "small business marketing",
-    "Pittsburgh web design",
-    "Pittsburgh SEO",
+    "Pittsburgh home improvement",
+    "Pittsburgh interior design",
+    "home renovation Pittsburgh",
+    "kitchen renovation Pittsburgh",
+    "bathroom remodel Pittsburgh",
+    "short-term rental design",
+    "Airbnb design Pittsburgh",
+    "furniture restoration",
+    "home remodeling",
+    "interior designer",
+    "home improvement contractor",
+    "Twin Olives",
   ],
 
   authors: [
     {
-      name: "Tech Wrench",
-      url: "https://www.techwrench.co",
+      name: "Twin Olives",
+      url: "https://twinolives.com",
     },
   ],
 
-  creator: "Tech Wrench",
+  creator: "Twin Olives",
 
-  publisher: "Tech Wrench",
+  publisher: "Twin Olives",
 
   alternates: {
-    canonical: "https://www.techwrench.co",
+    canonical: "https://twinolives.com",
   },
 
   robots: {
@@ -82,17 +80,17 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "Tech Wrench | Customer Acquisition Systems",
+    title: "Twin Olives | Home Improvement & Interior Design",
     description:
-      "Tech Wrench helps local service businesses get found online, capture every lead, and win more customers through high-performance websites, Google Business optimization, lead automation, and customer acquisition systems.",
-    url: "https://www.techwrench.co",
-    siteName: "Tech Wrench",
+      "Pittsburgh home improvement and interior design firm since 2017. Renovations, interior design, short-term rental design, and restoration. Free consultation.",
+    url: "https://twinolives.com",
+    siteName: "Twin Olives",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Tech Wrench helps local service businesses get found online and win more customers.",
+        alt: "Twin Olives: turning houses into homes, one project at a time.",
       },
     ],
     locale: "en_US",
@@ -101,13 +99,13 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Tech Wrench | Customer Acquisition Systems",
+    title: "Twin Olives | Home Improvement & Interior Design",
     description:
-      "Tech Wrench helps local service businesses get found online, capture every lead, and win more customers through high-performance websites, Google Business optimization, lead automation, and customer acquisition systems.",
+      "Pittsburgh home improvement and interior design firm since 2017. Renovations, interior design, short-term rental design, and restoration. Free consultation.",
     images: [
       {
         url: "/og-image.png",
-        alt: "Tech Wrench helps local service businesses get found online and win more customers.",
+        alt: "Twin Olives: turning houses into homes, one project at a time.",
       },
     ],
   },
@@ -127,101 +125,78 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
-              name: "Tech Wrench",
-              alternateName: "Tech Wrench Web Solutions",
-              url: "https://www.techwrench.co",
+              name: "Twin Olives",
+              url: "https://twinolives.com",
               logo: "https://www.techwrench.co/twsVerticalWhite.svg",
-              image: "https://www.techwrench.co/og-image.png",
+              image: "https://twinolives.com/og-image.png",
               description:
-                "Tech Wrench helps local service businesses get found online, capture every lead, and win more customers through high-performance websites, Google Business optimization, lead automation, and customer acquisition systems.",
-              priceRange: "$$",
-              telephone: "+1-412-965-8201",
-              email: "carlo@techwrench.co",
+                "Pittsburgh home improvement and interior design firm since 2017. Renovations, interior design, short-term rental design, and restoration. Free consultation.",
+              telephone: "+1-412-880-2971",
+              email: "justin@twinolives.com",
               contactPoint: {
                 "@type": "ContactPoint",
-                telephone: "+1-412-965-8201",
+                telephone: "+1-412-880-2971",
                 contactType: "sales",
-                email: "carlo@techwrench.co",
+                email: "justin@twinolives.com",
               },
               serviceType: [
-                "Customer Acquisition",
-                "Website Development",
-                "Google Business Profile Optimization",
-                "Local SEO",
-                "Lead Management",
-                "CRM Implementation",
-                "Marketing Automation",
-                "Reputation Management",
-                "Google Local Services Ads",
+                "Home Renovation",
+                "Interior Design",
+                "Short-Term Rental Design",
+                "Restoration",
               ],
               address: {
                 "@type": "PostalAddress",
                 addressLocality: "Pittsburgh",
                 addressRegion: "PA",
-                postalCode: "15241",
                 addressCountry: "US",
               },
               areaServed: [
                 { "@type": "AdministrativeArea", name: "Pittsburgh, PA" },
-                { "@type": "AdministrativeArea", name: "Pennsylvania" },
-                { "@type": "Country", name: "United States" },
+                { "@type": "AdministrativeArea", name: "Greater Pittsburgh Area" },
               ],
               hasOfferCatalog: {
                 "@type": "OfferCatalog",
-                name: "Customer Acquisition & Growth Services",
+                name: "Home Improvement & Design Services",
                 itemListElement: [
                   {
                     "@type": "Offer",
                     itemOffered: {
                       "@type": "Service",
-                      name: "Essential Presence",
+                      name: "Home Renovation",
                       description:
-                        "Professional website, Google Business Profile optimization, local SEO foundation, hosting, maintenance, and missed-call text back automation for local service businesses.",
+                        "Projects of every size, from swapping a light fixture to a full kitchen renovation.",
                     },
                   },
                   {
                     "@type": "Offer",
                     itemOffered: {
                       "@type": "Service",
-                      name: "Growth Engine",
+                      name: "Interior Design",
                       description:
-                        "Lead management, automated review generation, CRM, pipeline tracking, unified inbox, and automated follow-up systems that convert more inquiries into customers.",
+                        "Design help for any space in your home that needs direction.",
                     },
                   },
                   {
                     "@type": "Offer",
                     itemOffered: {
                       "@type": "Service",
-                      name: "Local Authority",
+                      name: "Short-Term Rental Design",
                       description:
-                        "Google Local Services Ads management, database reactivation campaigns, referral automation, and ROI reporting for businesses focused on predictable growth.",
+                        "Full-service design for short-term rentals, down to the forks.",
                     },
                   },
                   {
                     "@type": "Offer",
                     itemOffered: {
                       "@type": "Service",
-                      name: "Custom Website Development",
+                      name: "Restoration",
                       description:
-                        "Fast, SEO-optimized Next.js websites built to help local service businesses generate more leads.",
-                    },
-                  },
-                  {
-                    "@type": "Offer",
-                    itemOffered: {
-                      "@type": "Service",
-                      name: "Google Business Profile Optimization",
-                      description:
-                        "Optimization and ongoing management of Google Business Profiles to improve local visibility and attract more customers.",
+                        "Restoring vintage and older pieces, backed by experience from owning a vintage boutique.",
                     },
                   },
                 ],
               },
-              sameAs: [
-                "https://www.facebook.com/people/Tech-Wrench/61582078050775/",
-                "https://www.instagram.com/techwrenchco",
-                "https://www.linkedin.com/company/tech-wrench/",
-              ],
             }),
           }}
         />
@@ -231,14 +206,13 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebSite",
-              name: "Tech Wrench",
-              url: "https://www.techwrench.co",
+              name: "Twin Olives",
+              url: "https://twinolives.com",
               potentialAction: {
                 "@type": "SearchAction",
                 target: {
                   "@type": "EntryPoint",
-                  urlTemplate:
-                    "https://www.techwrench.co/?q={search_term_string}",
+                  urlTemplate: "https://twinolives.com/?q={search_term_string}",
                 },
                 "query-input": "required name=search_term_string",
               },
