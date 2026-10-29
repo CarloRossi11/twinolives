@@ -2,31 +2,31 @@ import type { Metadata } from "next";
 import ServicesClient from "./ServicesClient";
 
 export const metadata: Metadata = {
-  title: "Web Development Services | Tech Wrench",
+  title: "Home Improvement & Design Services | Twin Olives",
   description:
-    "Explore Tech Wrench's custom web development services for small businesses — from responsive design and SEO to hosting, maintenance, and brand refresh.",
+    "Explore Twin Olives' home improvement and design services in Pittsburgh, PA, from renovations and interior design to short-term rental design and restoration.",
   alternates: {
-    canonical: "https://www.techwrench.co/services",
+    canonical: "https://twinolives.com/services",
   },
   openGraph: {
-    title: "Web Development Services | Tech Wrench",
+    title: "Home Improvement & Design Services | Twin Olives",
     description:
-      "Explore Tech Wrench's custom web development services for small businesses — from responsive design and SEO to hosting, maintenance, and brand refresh.",
-    url: "https://www.techwrench.co/services",
+      "Explore Twin Olives' home improvement and design services in Pittsburgh, PA, from renovations and interior design to short-term rental design and restoration.",
+    url: "https://twinolives.com/services",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Tech Wrench Web Solutions",
+        alt: "Twin Olives Home Improvement & Design",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Web Development Services | Tech Wrench",
+    title: "Home Improvement & Design Services | Twin Olives",
     description:
-      "Explore Tech Wrench's custom web development services for small businesses — from responsive design and SEO to hosting, maintenance, and brand refresh.",
+      "Explore Twin Olives' home improvement and design services in Pittsburgh, PA, from renovations and interior design to short-term rental design and restoration.",
     images: ["/og-image.png"],
   },
 };
@@ -40,36 +40,57 @@ export default function Page() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            serviceType: "Website Development",
+            serviceType: "Home Improvement and Interior Design",
             provider: {
               "@type": "LocalBusiness",
-              name: "Tech Wrench",
-              url: "https://www.techwrench.co",
+              name: "Twin Olives",
+              url: "https://twinolives.com",
             },
-            areaServed: {
-              "@type": "Country",
-              name: "United States",
-            },
+            areaServed: [
+              { "@type": "AdministrativeArea", name: "Pittsburgh, PA" },
+              {
+                "@type": "AdministrativeArea",
+                name: "Greater Pittsburgh Area",
+              },
+            ],
             hasOfferCatalog: {
               "@type": "OfferCatalog",
-              name: "Web Development Services",
+              name: "Home Improvement & Design Services",
               itemListElement: [
                 {
                   "@type": "Offer",
                   itemOffered: {
                     "@type": "Service",
-                    name: "Custom Website Development",
+                    name: "Home Renovation",
                     description:
-                      "Fully custom websites designed and built to reflect your brand and convert visitors into customers.",
+                      "Projects of every size, from swapping a light fixture to a full kitchen renovation.",
                   },
                 },
                 {
                   "@type": "Offer",
                   itemOffered: {
                     "@type": "Service",
-                    name: "Lead Generation Websites",
+                    name: "Interior Design",
                     description:
-                      "Performance-focused websites built to capture leads and grow your small business.",
+                      "Design help for any space in your home that needs direction.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Short-Term Rental Design",
+                    description:
+                      "Full-service design for short-term rentals, down to the forks.",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Restoration",
+                    description:
+                      "Restoring vintage and older pieces, backed by experience from owning a vintage boutique.",
                   },
                 },
               ],

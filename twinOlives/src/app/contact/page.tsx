@@ -2,31 +2,31 @@ import type { Metadata } from "next";
 import ContactClient from "./ContactClient";
 
 export const metadata: Metadata = {
-  title: "Contact Us | Tech Wrench Web Development",
+  title: "Contact Us | Twin Olives Home Improvement & Design",
   description:
-    "Get in touch with Tech Wrench to discuss your project or request a free quote. Based in Pittsburgh, PA — serving small businesses nationwide.",
+    "Get in touch with Twin Olives to discuss your project or schedule a free consultation. Based in Pittsburgh, PA, with nights and weekends available.",
   alternates: {
-    canonical: "https://www.techwrench.co/contact",
+    canonical: "https://twinolives.com/contact",
   },
   openGraph: {
-    title: "Contact Us | Tech Wrench Web Development",
+    title: "Contact Us | Twin Olives Home Improvement & Design",
     description:
-      "Get in touch with Tech Wrench to discuss your project or request a free quote. Based in Pittsburgh, PA — serving small businesses nationwide.",
-    url: "https://www.techwrench.co/contact",
+      "Get in touch with Twin Olives to discuss your project or schedule a free consultation. Based in Pittsburgh, PA, with nights and weekends available.",
+    url: "https://twinolives.com/contact",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Tech Wrench Web Solutions",
+        alt: "Twin Olives Home Improvement & Design",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Contact Us | Tech Wrench Web Development",
+    title: "Contact Us | Twin Olives Home Improvement & Design",
     description:
-      "Get in touch with Tech Wrench to discuss your project or request a free quote. Based in Pittsburgh, PA — serving small businesses nationwide.",
+      "Get in touch with Twin Olives to discuss your project or schedule a free consultation. Based in Pittsburgh, PA, with nights and weekends available.",
     images: ["/og-image.png"],
   },
 };

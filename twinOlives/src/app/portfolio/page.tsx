@@ -2,17 +2,32 @@ import type { Metadata } from "next";
 import PortfolioClient from "./PortfolioClient";
 
 export const metadata: Metadata = {
-  title: "Web Development Portfolio",
+  title: "Portfolio | Twin Olives Home Improvement & Design",
   description:
-    "View our web development portfolio showcasing our latest projects and success stories.",
+    "Browse recent Twin Olives projects, including home renovations, interior design, short-term rental design, and restoration in the Pittsburgh area.",
   alternates: {
-    canonical: "https://techwrench.co/portfolio",
+    canonical: "https://twinolives.com/portfolio",
   },
   openGraph: {
-    title: "Web Development Portfolio",
+    title: "Portfolio | Twin Olives Home Improvement & Design",
     description:
-      "View our web development portfolio showcasing our latest projects and success stories.",
-    url: "https://techwrench.co/portfolio",
+      "Browse recent Twin Olives projects, including home renovations, interior design, short-term rental design, and restoration in the Pittsburgh area.",
+    url: "https://twinolives.com/portfolio",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Twin Olives Home Improvement & Design",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Portfolio | Twin Olives Home Improvement & Design",
+    description:
+      "Browse recent Twin Olives projects, including home renovations, interior design, short-term rental design, and restoration in the Pittsburgh area.",
+    images: ["/og-image.png"],
   },
 };
 

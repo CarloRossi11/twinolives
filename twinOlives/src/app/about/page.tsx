@@ -2,31 +2,31 @@ import type { Metadata } from "next";
 import AboutClient from "./AboutClient";
 
 export const metadata: Metadata = {
-  title: "About Tech Wrench | Custom Web Development",
+  title: "About Twin Olives | Home Improvement & Design in Pittsburgh, PA",
   description:
-    "Meet the team behind Tech Wrench — a Pittsburgh-based web development company specializing in custom, high-performing websites for small businesses.",
+    "Meet Justin and Nicole, the co-owners of Twin Olives, a Pittsburgh home improvement and interior design firm established in 2017.",
   alternates: {
-    canonical: "https://www.techwrench.co/about",
+    canonical: "https://twinolives.com/about",
   },
   openGraph: {
-    title: "About Tech Wrench | Custom Web Development",
+    title: "About Twin Olives | Home Improvement & Design in Pittsburgh, PA",
     description:
-      "Meet the team behind Tech Wrench — a Pittsburgh-based web development company specializing in custom, high-performing websites for small businesses.",
-    url: "https://www.techwrench.co/about",
+      "Meet Justin and Nicole, the co-owners of Twin Olives, a Pittsburgh home improvement and interior design firm established in 2017.",
+    url: "https://twinolives.com/about",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Tech Wrench Web Solutions",
+        alt: "Twin Olives co-owners Justin and Nicole",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "About Tech Wrench | Custom Web Development",
+    title: "About Twin Olives | Home Improvement & Design in Pittsburgh, PA",
     description:
-      "Meet the team behind Tech Wrench — a Pittsburgh-based web development company specializing in custom, high-performing websites for small businesses.",
+      "Meet Justin and Nicole, the co-owners of Twin Olives, a Pittsburgh home improvement and interior design firm established in 2017.",
     images: ["/og-image.png"],
   },
 };
